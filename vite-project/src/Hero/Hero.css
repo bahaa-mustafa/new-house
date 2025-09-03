@@ -1,0 +1,41 @@
+.hero{
+    background-color: rgba(202, 204, 189, 0.1);
+}
+
+.hero .row{
+    padding: 100px 0;
+    align-items: center;
+}
+
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 50px;
+}
+.hero_img img{
+   width: 100%;
+   align-items: center;
+}
+
+.hero_text h1{
+    font-weight: 800;
+    font-size: 60px;
+    color: rgba(0, 0, 0,0.7);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.hero_text p{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0,0.7);
+    margin-bottom: 20px;
+}
+
+.hero_text .btns{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    gap: 20px;
+}

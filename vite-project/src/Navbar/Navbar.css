@@ -1,0 +1,49 @@
+
+.navbar .row{
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar_logo{
+    margin-right: auto;
+    align-items: center;
+}
+.navbar_logo p{
+    color: rgba(50, 48, 48,.6);
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.navbar_logo span{
+    color: rgba(48, 44, 44,.7);
+
+}
+
+.navbar_links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right: auto;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_links li{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.navbar_actions{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.navbar_actions a{
+    color: black;
+    text-transform: uppercase;
+}

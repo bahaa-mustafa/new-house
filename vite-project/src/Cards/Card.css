@@ -1,0 +1,37 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    background-color: rgba(202, 204, 189, 0.1);
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_text h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+
+.price span {
+    color: rgba(101, 142, 218, 0.8);
+    margin-right: 3px;
+}
+
+.price a {
+    color: rgba(101, 142, 218, 0.8);
+    font-weight: 500;
+    text-transform: uppercase;
+
+}

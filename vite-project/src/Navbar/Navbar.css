@@ -30,9 +30,10 @@
     align-items: center;
 }
 
-.navbar_links li{
+.navbar_links a{
     text-transform: uppercase;
     font-weight: 300;
+    color: black;
 }
 
 .navbar_actions{

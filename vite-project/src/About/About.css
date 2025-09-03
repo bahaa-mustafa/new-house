@@ -1,0 +1,31 @@
+.about{
+    background-color: rgba(202, 204, 189, 0.1);
+}
+
+.about .row{
+    padding: 50px 0;
+}
+.about_img{
+    width: 50%;
+}
+.about_img img{
+    width: 100%;
+}
+.about_text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+}
+.about_text h3{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.about_text p{
+    margin-bottom: 15px;
+}

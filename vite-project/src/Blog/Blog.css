@@ -1,0 +1,23 @@
+.blog .row{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0;
+}
+
+.blog_title{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.blog_title h3{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.blog_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}

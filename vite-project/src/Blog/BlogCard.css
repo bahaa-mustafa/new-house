@@ -1,0 +1,22 @@
+.blog_card{
+    width: 32%;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    padding-bottom: 20px;
+    
+}
+.blog_card img{
+    width: 100%;
+}
+.blog_card .content{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.blog_card .content h3{
+    padding: 10px 0;
+}
+
+.blog_card .content p{
+    padding-bottom: 10px;
+}

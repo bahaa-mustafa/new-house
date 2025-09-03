@@ -5,7 +5,7 @@ import heroImg from "./assets/slider-img.png"
 export default function Hero() {
     return (
         <>
-        <section className="hero">
+        <section className="hero" id="home">
             <div className="container">
                 <div className="row">
                     <div className="hero_text">

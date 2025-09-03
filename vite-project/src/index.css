@@ -107,11 +107,12 @@ a{
   text-align: center;
   border: none;
   background-color: rgb(33, 133, 192);
+  border-radius: 3px;
 }
 .orng{
-  background-color: rgb(216, 139, 57);
+  background-color: #f89744;
   
 }
 .blue{
-background-color: rgb(17, 87, 192);
+background-color: #86d2ce;
 }

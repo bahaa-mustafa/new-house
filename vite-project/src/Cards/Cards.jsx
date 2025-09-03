@@ -19,7 +19,7 @@ let card_content = [
 
 export default function Cards(){
     return <>
-    <section className="cards">
+    <section className="cards" id="furnitures">
         <div className="container">
             <div className="row">
                 <div className="cards_text">
@@ -28,7 +28,7 @@ export default function Cards(){
                 </div>
                 <div className="cards_content">
                     {
-                        card_content.map((content)=>(<Card  imgSrc={content.img} title={content.tilte} price={content.price}/>))
+                        card_content.map((content, index)=>(<Card key={index} imgSrc={content.img} title={content.tilte} price={content.price}/>))
                     }
                 </div>
             </div>

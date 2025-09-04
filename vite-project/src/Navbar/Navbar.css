@@ -13,17 +13,25 @@
 .navbar_logo{
     margin-right: auto;
     align-items: center;
+    cursor: pointer;
 }
 .navbar_logo p{
     color: rgba(50, 48, 48,.6);
     font-size: 20px;
     font-weight: 900;
     text-transform: uppercase;
+    transform: color 0.3ms ease;
+}
+.navbar_logo p:hover{
+    color: rgba(50, 48, 48,.7);
 }
 
 .navbar_logo span{
     color: rgba(48, 44, 44,.7);
-
+    transform: color 0.3ms ease;
+}
+.navbar_logo span:hover{
+    color: rgba(48, 44, 44,.8);
 }
 
 .navbar_links{

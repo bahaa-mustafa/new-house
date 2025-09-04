@@ -6,14 +6,14 @@ import img2 from "./assets/b2.jpg"
 import img3 from "./assets/b3.jpg"
 
 let content = [
-    {"title":"Look even slightly believable if you are", "img":img1},
+    {"title":"Look even slightly more believable if you are", "img":img1},
     {"title":"Anything embarrassing hidden in the middel", "img":img2},
     {"title":"Molestias magni nats dolores adio commodi", "img":img3}
 ]
 
 export default function Blog(){
     return<>
-    <div className="blog">
+    <section className="blog" id="blog">
         <div className="container">
             <div className="row">
                 <div className="blog_title">
@@ -24,6 +24,6 @@ export default function Blog(){
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     </>
 }

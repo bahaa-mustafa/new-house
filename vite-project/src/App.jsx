@@ -2,6 +2,7 @@ import About from './About/About'
 import './App.css'
 import Blog from './Blog/Blog'
 import Cards from './Cards/Cards'
+import Footer from './Footer/Footer'
 import Hero from './Hero/Hero'
 import Navbar from './Navbar/Navbar'
 
@@ -14,6 +15,7 @@ function App() {
     <Cards/>
     <About/>
     <Blog/>
+    <Footer/>
     </>
   )
 }

@@ -33,5 +33,9 @@
     color: rgba(101, 142, 218, 0.8);
     font-weight: 500;
     text-transform: uppercase;
-
+    transform: text 0.3ms ease;
+}
+.price a:hover{
+    color: rgba(101, 142, 218, 1);
+    font-weight: 600;
 }

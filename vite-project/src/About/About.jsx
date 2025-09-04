@@ -4,7 +4,7 @@ import imgSrc from "./assets/about-img.png"
 
 export default function About(){
     return <>
-    <section className="about">
+    <section className="about" id="about">
         <div className="container">
             <div className="row">
                 <div className="about_img">

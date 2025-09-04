@@ -1,3 +1,9 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 999;
+}
 
 .navbar .row{
     flex-direction: row;
@@ -34,6 +40,11 @@
     text-transform: uppercase;
     font-weight: 300;
     color: black;
+    transform: text 0.3ms ease;
+}
+
+.navbar_links a:hover{
+    font-weight: 400;
 }
 
 .navbar_actions{

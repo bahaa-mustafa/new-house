@@ -39,3 +39,41 @@
     justify-content: start;
     gap: 20px;
 }
+
+@media (max-width:768px) {
+    .hero .row{
+        flex-direction: column-reverse;
+    }
+    .hero_text{
+        width: 100%;
+        padding-right: 0;
+    }
+    .hero_text h1{
+        font-size: 40px;
+    }
+    .hero_img{
+        margin-bottom: 15px;
+    }
+    .hero .row{
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .hero .row{
+        flex-direction: column-reverse;
+    }
+    .hero_text{
+        width: 100%;
+        padding-right: 0;
+    }
+    .hero_text h1{
+        font-size: 60px;
+    }
+    .hero_img{
+        margin-bottom: 15px;
+    }
+    .hero .row{
+        padding-bottom: 70px;
+    }
+}

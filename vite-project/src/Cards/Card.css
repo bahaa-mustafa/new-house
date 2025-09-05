@@ -39,3 +39,17 @@
     color: rgba(101, 142, 218, 1);
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+    .card{
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .card{
+        width: 45%;
+        padding: 0;
+    }
+}

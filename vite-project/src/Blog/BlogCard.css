@@ -20,3 +20,15 @@
 .blog_card .content p{
     padding-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+    .blog_card{
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .blog_card{
+        width: 45%;
+    }
+}

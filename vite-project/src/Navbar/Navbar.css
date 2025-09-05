@@ -1,40 +1,45 @@
-.navbar{
+.navbar {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     background-color: white;
     z-index: 999;
 }
 
-.navbar .row{
+
+.navbar .row {
     flex-direction: row;
     justify-content: center;
+    margin: auto;
 }
 
-.navbar_logo{
+.navbar_logo {
     margin-right: auto;
     align-items: center;
     cursor: pointer;
 }
-.navbar_logo p{
-    color: rgba(50, 48, 48,.6);
+
+.navbar_logo p {
+    color: rgba(50, 48, 48, .6);
     font-size: 20px;
     font-weight: 900;
     text-transform: uppercase;
     transform: color 0.3ms ease;
 }
-.navbar_logo p:hover{
-    color: rgba(50, 48, 48,.7);
+
+.navbar_logo p:hover {
+    color: rgba(50, 48, 48, .7);
 }
 
-.navbar_logo span{
-    color: rgba(48, 44, 44,.7);
+.navbar_logo span {
+    color: rgba(48, 44, 44, .7);
     transform: color 0.3ms ease;
 }
-.navbar_logo span:hover{
-    color: rgba(48, 44, 44,.8);
+
+.navbar_logo span:hover {
+    color: rgba(48, 44, 44, .8);
 }
 
-.navbar_links{
+.navbar_links {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -44,18 +49,18 @@
     align-items: center;
 }
 
-.navbar_links a{
+.navbar_links a {
     text-transform: uppercase;
     font-weight: 300;
     color: black;
     transform: text 0.3ms ease;
 }
 
-.navbar_links a:hover{
+.navbar_links a:hover {
     font-weight: 400;
 }
 
-.navbar_actions{
+.navbar_actions {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -63,7 +68,49 @@
     display: flex;
     gap: 20px;
 }
-.navbar_actions a{
+
+.navbar_actions a {
     color: black;
     text-transform: uppercase;
+}
+
+.menu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #menu:checked~.navbar_links{
+        display: flex;
+    }
+    .navbar_links {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        background-color: aliceblue;
+        width: 100vw;
+        padding: 40px 0 40px 20px;
+        align-items: start;
+        transition: background 0.1ms ease-out;
+    }
+    .navbar_links a{
+        font-weight: 600;
+        opacity: 50%;
+    }
+
+    .navbar_actions {
+        display: none;
+    }
+
+    .menu {
+        display: inline;
+    }
+}
+
+@media (min-width: 769px) and (max-width:1024px){
+    .navbar_links{
+        gap: 25px;
+    }
 }

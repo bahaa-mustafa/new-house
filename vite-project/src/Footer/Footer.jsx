@@ -33,7 +33,7 @@ export default function Footer() {
                             </div>
                             <div className="location">
                                 <a href="#"><MapPinHouse color="whitesmoke" /></a>
-                                <h5>Location</h5>
+                                <h5>Location: Egypt</h5>
                             </div>
                         </div>
                         <div className="footer_elements">
